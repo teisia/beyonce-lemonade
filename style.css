@@ -34,13 +34,13 @@
 }
 
 .imageContainer img {
-  margin-top: 4rem;
+  margin-top: 3rem;
   z-index: 0;
 }
 
 .palette {
   width: 990px;
   height: 100px;
-  margin: 3rem auto;
+  margin: 1rem auto;
   z-index: 1;
 }
