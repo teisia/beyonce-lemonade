@@ -29,12 +29,17 @@
   font-size: 12rem;
 }
 
+#mainArrow {
+  margin-top: 20rem;
+  font-size: 4rem;
+}
+
 .imageContainer {
   height: 100vh;
 }
 
 .imageContainer img {
-  margin-top: 3rem;
+  margin-top: 2rem;
   z-index: 0;
 }
 
