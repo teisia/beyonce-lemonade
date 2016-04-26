@@ -1,4 +1,4 @@
-var app = angular.module('lemonade', ['ngRoute']);
+var app = angular.module('lemonade', ['ngRoute', 'ngAnimate']);
 
 app.config(function($routeProvider) {
   $routeProvider
