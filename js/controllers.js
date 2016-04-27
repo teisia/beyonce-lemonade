@@ -1,3 +1,5 @@
 app.controller("mainController", function($scope, $routeParams, $http) {
-console.log("hello");
+  $scope.toggleHex = function() {
+    this.showme = !this.showme;
+  }
 });
