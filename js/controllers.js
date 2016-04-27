@@ -123,13 +123,7 @@ app.controller("mainController", function($scope, $routeParams, $http) {
   }, 500);
   });
 
-  $("#twelveDown").click(function() {
-  $('html, body').animate({
-    scrollTop: $("#thirteen").offset().top
-  }, 500);
-  });
-
-  $("#thirteenUp").click(function() {
+  $("#twelveUp").click(function() {
   $('html, body').animate({
     scrollTop: $("#one").offset().top
   }, 500);
